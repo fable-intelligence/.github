@@ -1,6 +1,6 @@
 # Fable Intelligence
 
-![Fable](https://img.shields.io/badge/Fable-Confidential-111827) ![status](https://img.shields.io/badge/status-company--formation-1F6F5B) ![mission](https://img.shields.io/badge/mission-agentic--mobile--computer-2E7D68) ![trust](https://img.shields.io/badge/trust-privacy--first-345995) ![hardware](https://img.shields.io/badge/hardware-operator--ready-6B7280) ![license](https://img.shields.io/badge/license-private-B91C1C)
+![Fable](https://img.shields.io/badge/Fable-Intelligence-111827) ![status](https://img.shields.io/badge/status-company--formation-1F6F5B) ![mission](https://img.shields.io/badge/mission-agentic--mobile--computer-2E7D68) ![trust](https://img.shields.io/badge/trust-privacy--first-345995) ![hardware](https://img.shields.io/badge/hardware-operator--ready-6B7280) ![repos](https://img.shields.io/badge/repos-private--by--default-B91C1C)
 
 Fable is building the trusted mobile computer for the agentic era: a device where intelligence is the operating model, not another layer of icons, feeds, and manual app management.
 
@@ -95,6 +95,6 @@ Every repository must maintain:
 | Before hardware impact | Product, security, operator, support, cost, thermal, battery, and manufacturability review. |
 | Before partner claim | Evidence of partner path, certification requirement, or explicit simulation label. |
 
-## Confidentiality
+## Repository Access
 
-This organization is private while Fable is in formation. Do not publish, mirror, export, or share repository contents outside approved Fable channels. Secrets, credentials, personal user data, operator credentials, private keys, supplier quotes under NDA, and investor-only material do not belong in Git.
+Most engineering repositories are private while Fable is in formation. Do not publish, mirror, export, or share private repository contents outside approved Fable channels. Secrets, credentials, personal user data, operator credentials, private keys, supplier quotes under NDA, and investor-only material do not belong in Git.
