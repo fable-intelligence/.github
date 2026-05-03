@@ -1,0 +1,17 @@
+name: Task
+description: Concrete implementation, research, or documentation work
+title: "[Task] "
+labels: ["type:task"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What should be true when this is done?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Context, constraints, and links
