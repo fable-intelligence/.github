@@ -16,6 +16,22 @@ Organization governance layer: standards, templates, and rituals used across eve
 
 Make the fable-intelligence organization feel like one disciplined company from the first commit.
 
+<!-- FABLE:PRODUCTION-CONTRACT:START -->
+## Executable Production Contract
+
+This repository includes a tested production contract that defines ownership, launch gates, critical workflows, and evidence required before the work can influence device, operator, silicon, security, or public product decisions.
+
+```bash
+npm test
+npm run test:contract
+```
+
+- Contract: [`src/repository-contract.js`](src/repository-contract.js)
+- Readiness gates: [`docs/production-readiness.md`](docs/production-readiness.md)
+- ADR: [`docs/adr/0002-production-contracts.md`](docs/adr/0002-production-contracts.md)
+- Production gate count: `7`
+<!-- FABLE:PRODUCTION-CONTRACT:END -->
+
 ## Repository Snapshot
 
 | Field | Value |
