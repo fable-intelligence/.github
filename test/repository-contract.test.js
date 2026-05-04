@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { access } from "node:fs/promises";
 import test from "node:test";
 import {
   assertProductionReady,
@@ -53,4 +54,16 @@ test("critical workflows define measurable proof paths", () => {
     assert.match(workflow.id, /^[a-z0-9-]+$/);
     assert.ok(workflow.metric.length > 20);
   }
+});
+
+test("shared governance templates exist", async () => {
+  const requiredFiles = [
+    "CONTRIBUTING.md",
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    "docs/release-evidence-template.md",
+    "docs/review-checklist.md",
+    "SECURITY.md"
+  ];
+
+  await Promise.all(requiredFiles.map((file) => access(new URL(`../${file}`, import.meta.url))));
 });

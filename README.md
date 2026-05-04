@@ -96,6 +96,10 @@ npm run test:contract
 ## Useful Entry Points
 
 - [`ROADMAP.md`](ROADMAP.md) - first 90 days and phase progression.
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) - default contribution and review rules.
+- [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) - default pull request evidence template.
+- [`docs/release-evidence-template.md`](docs/release-evidence-template.md) - release decision evidence template.
+- [`docs/review-checklist.md`](docs/review-checklist.md) - review checklist for trust-critical changes.
 - [`docs/charter.md`](docs/charter.md) - repository ownership and boundaries.
 - [`docs/adr/0001-repository-charter.md`](docs/adr/0001-repository-charter.md) - initial decision record.
 - [`CONFIDENTIALITY.md`](CONFIDENTIALITY.md) - what must never be committed here.
