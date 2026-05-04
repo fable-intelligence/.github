@@ -60,6 +60,7 @@ test("shared governance templates exist", async () => {
   const requiredFiles = [
     "CONTRIBUTING.md",
     ".github/PULL_REQUEST_TEMPLATE.md",
+    ".github/ISSUE_TEMPLATE/release-readiness.yml",
     "docs/release-evidence-template.md",
     "docs/review-checklist.md",
     "SECURITY.md"

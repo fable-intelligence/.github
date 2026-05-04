@@ -1,0 +1,51 @@
+name: Release Readiness
+description: Evidence review before a change influences launch, hardware, operator, security, or public product decisions
+title: "[Release] "
+labels: ["type:release"]
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which repository is being reviewed?
+      placeholder: fable-telephony
+    validations:
+      required: true
+  - type: input
+    id: release-target
+    attributes:
+      label: Release Target
+      description: What milestone, demo, pilot, or release is this for?
+      placeholder: alpha-0
+    validations:
+      required: true
+  - type: dropdown
+    id: integration-state
+    attributes:
+      label: Integration State
+      options:
+        - simulated
+        - mocked
+        - partner-gated
+        - lab-only
+        - live
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link tests, CI runs, ADRs, scorecards, prototypes, security reviews, operator evidence, or hardware evidence.
+    validations:
+      required: true
+  - type: checkboxes
+    id: impact
+    attributes:
+      label: Impact Review
+      options:
+        - label: User trust impact reviewed
+        - label: Privacy and retention reviewed
+        - label: Security impact reviewed
+        - label: Approval, ledger, and recovery behavior reviewed
+        - label: Operator, emergency, or telephony impact reviewed
+        - label: Hardware, support, cost, battery, thermal, or manufacturability impact reviewed

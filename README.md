@@ -98,6 +98,7 @@ npm run test:contract
 - [`ROADMAP.md`](ROADMAP.md) - first 90 days and phase progression.
 - [`CONTRIBUTING.md`](CONTRIBUTING.md) - default contribution and review rules.
 - [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) - default pull request evidence template.
+- [`.github/ISSUE_TEMPLATE/release-readiness.yml`](.github/ISSUE_TEMPLATE/release-readiness.yml) - release readiness issue template.
 - [`docs/release-evidence-template.md`](docs/release-evidence-template.md) - release decision evidence template.
 - [`docs/review-checklist.md`](docs/review-checklist.md) - review checklist for trust-critical changes.
 - [`docs/charter.md`](docs/charter.md) - repository ownership and boundaries.
