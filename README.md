@@ -1,4 +1,5 @@
 # .github
+![ci](https://github.com/fable-intelligence/.github/actions/workflows/ci.yml/badge.svg)
 
 ![Fable](https://img.shields.io/badge/Fable-Confidential-111827) ![status](https://img.shields.io/badge/status-formation-1F6F5B) ![phase](https://img.shields.io/badge/phase-formation-2E7D68) ![area](https://img.shields.io/badge/area-product-345995) ![docs](https://img.shields.io/badge/docs-ADR--ready-6B7280) ![license](https://img.shields.io/badge/license-private-B91C1C)
 
