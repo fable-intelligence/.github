@@ -25,14 +25,15 @@ flowchart LR
   User["User Intent"] --> Animus["Animus\nLiving Interface"]
   Animus --> Conduct["Conduct\nPlanning and Approval"]
   Conduct --> OS["Fable OS\nCore Device Surfaces"]
-  OS --> Calls["Calls"]
-  OS --> Messages["Messages"]
+  OS --> Telephony["Telephony\nCalls, SMS, Emergency"]
+  Telephony --> Calls["Calls"]
+  Telephony --> Messages["Messages"]
   OS --> Browser["Browser"]
   OS --> Camera["Camera"]
   Conduct --> Memoir["Memoir\nPrivate Memory"]
   Conduct --> Guild["Guild\nTool Runtime"]
   Memoir --> Sanctum["Sanctum\nSensor Trust"]
-  OS --> Operator["Operator Program\nCarrier Readiness"]
+  Telephony --> Operator["Operator Program\nCarrier Readiness"]
   Hardware["Device Hardware"] --> OS
   Velocity["Velocity\nOn-device Compute"] --> Conduct
   Security["Security"] --> Conduct
@@ -48,6 +49,7 @@ flowchart LR
 | [`fable-strategy`](https://github.com/fable-intelligence/fable-strategy) | Company thesis, launch gates, capital sequencing, and founder operating cadence. |
 | [`fable-architecture`](https://github.com/fable-intelligence/fable-architecture) | System context, service contracts, ADRs, trust boundaries, and cross-repo integration. |
 | [`fable-os`](https://github.com/fable-intelligence/fable-os) | AOSP strategy, system services, telephony, SMS/MMS, RCS readiness, settings, recovery, and shell. |
+| [`fable-telephony`](https://github.com/fable-intelligence/fable-telephony) | Calls, SMS, RCS fallback, eSIM, IMS, VoLTE, VoWiFi, emergency behavior, roaming policy, and phone-grade readiness. |
 | [`fable-animus`](https://github.com/fable-intelligence/fable-animus) | Intent canvas, confirmation cards, core surfaces, and the living interaction model. |
 | [`fable-conduct`](https://github.com/fable-intelligence/fable-conduct) | Planning, approval policy, action execution, reversibility, and user-visible control. |
 | [`fable-memoir`](https://github.com/fable-intelligence/fable-memoir) | Private memory, user context, retention, erasure, provenance, and recall policy. |
