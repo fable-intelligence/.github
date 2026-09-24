@@ -6,8 +6,10 @@
   "description": "Organization standards, governance, issue templates, and shared engineering rituals for Fable.",
   "exports": "./src/repository-contract.js",
   "engines": {
-    "node": ">=20"
+    "node": "24.8.0",
+    "npm": "11.6.0"
   },
+  "packageManager": "npm@11.6.0",
   "scripts": {
     "test": "node --test",
     "test:contract": "node --test test/repository-contract.test.js"
